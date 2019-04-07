@@ -15,6 +15,7 @@ public class MergeFile {
 
     public MergeFile(String file, String company) {
         this.file = file;
+        this.company = company;
         this.id = UUID.randomUUID().toString();
     }
 
