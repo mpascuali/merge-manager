@@ -7,8 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="merge-manager" />
         <module name="merge" />
+        <module name="merge-manager" />
       </profile>
     </annotationProcessing>
   </component>

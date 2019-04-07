@@ -6,5 +6,5 @@ import com.experian.br.polis.merge.model.MergeFile;
 public interface LoadBalancerService {
     void execute(MergeFile mergeFile) throws NoResourceAvailableException;
     void addCluster(ClusterInfo cluster);
-    void removeCluster(ClusterInfo cluster);
+    void removeCluster(String clusterName);
 }
