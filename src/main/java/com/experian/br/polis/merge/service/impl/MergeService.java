@@ -1,4 +1,4 @@
-package com.experian.br.polis.merge.service;
+package com.experian.br.polis.merge.service.impl;
 
 import com.experian.br.polis.merge.model.MergeResponse;
 
